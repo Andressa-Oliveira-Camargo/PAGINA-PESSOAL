@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+
+    <!-- Importando fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Estilos gerais */
+        body {
+            background-color: #0d0d0d; /* Preto profundo */
+            color: #c4c4c4; 
+            font-family: 'Old Standard TT', serif;
+            margin: 0;
+            padding: 0;
+            padding-top: 80px; 
+        }
+
+        /* Cabeçalho fixo */
+        header {
+            background-color: rgba(26, 26, 26, 0.9);
+            padding: 2px;
+            text-align: center;
+            border-bottom: 2px solid #6b0808;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+            
+        header h1 {
+            font-family: 'UnifrakturMaguntia', cursive;
+            color: #9e0b0f;
+            font-size: 3rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #c4c4c4;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #9e0b0f;
+        }
+
+        /* Seções */
+        section {
+            padding: 50px;
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-family: 'UnifrakturMaguntia', cursive;
+            font-size: 2.5rem;
+            color: #9e0b0f;
+            border-bottom: 2px solid #6b0808;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Imagem de perfil */
+        img {
+            border: 4px solid #6b0808;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(158, 11, 15, 0.8);
+        }
+
+        /* Lista de habilidades */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #1a1a1a;
+            padding: 15px;
+            margin: 10px;
+            border-left: 5px solid #9e0b0f;
+            display: inline-block;
+            font-size: 1.2rem;
+        }
+
+        /* Formulário */
+        form {
+            background-color: #1a1a1a;
+            padding: 20px;
+            display: inline-block;
+            border: 2px solid #6b0808;
+            border-radius: 10px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        input, textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #9e0b0f;
+            background-color: #0d0d0d;
+            color: #c4c4c4;
+            font-family: 'Old Standard TT', serif;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #9e0b0f;
+            color: white;
+            padding: 12px 24px;
+            border: 2px solid #6b0808;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #6b0808;
+            transform: scale(1.05);
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            border-top: 2px solid #6b0808;
+        }
+
+        footer ul {
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: #c4c4c4;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer ul li a:hover {
+            color: #9e0b0f;
+        }
+
+        footer ul li a::before {
+            content: "🔗";
+            margin-right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Andressa de Oliveira Camargo</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+   
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <p>
+
+        </p>
+        <h2>Sobre Mim</h2>
+        <p> 
+            
+        </p>
+        <img src="c:\Users\max00\Downloads\minha foto.jpeg" alt="Foto pessoal"> <!-- Altere o caminho conforme necessário -->
+        <p>Foto de perfil</p>
+    </section>
+    
+    <!-- Seção Formação -->
+    <section id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li>
+                <h4>Graduação</h4>
+                <p>Técnico em Mecatrônica</p>
+                <p>Técnico em Jogos Digitais</p>
+            </li>
+        </ul>
+    </section>
+    
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>
+
+        </p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>Siga-me nas redes sociais:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/andressa.oliveira.camargo/">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/andressa-oliveira-camargo-06375820b">LinkedIn</a></li>
+            <li><a href="https://github.com/andressa-oliveira-camargo">GitHub</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
